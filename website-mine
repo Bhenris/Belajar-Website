@@ -1,0 +1,1249 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Bhenris/Belajar-Website.git
+git push -u origin main
+{
+    "manifest_version": "1.0.21",
+    "title": "Vigraph",
+    "page_builder": "elementor",
+    "kit_version": "1.0.1",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/kitpro.site",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/kitpro.site\/vigraph\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/kitpro.site\/vigraph\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service",
+            "screenshot": "screenshots\/service.jpg",
+            "source": "templates\/service.json",
+            "preview_url": "https:\/\/kitpro.site\/vigraph\/template-kit\/service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/kitpro.site\/vigraph\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/kitpro.site\/vigraph\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Testimonial",
+            "screenshot": "screenshots\/testimonial.jpg",
+            "source": "templates\/testimonial.json",
+            "preview_url": "https:\/\/kitpro.site\/vigraph\/template-kit\/testimonial\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/kitpro.site\/vigraph\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portfolio",
+            "screenshot": "screenshots\/portfolio.jpg",
+            "source": "templates\/portfolio.json",
+            "preview_url": "https:\/\/kitpro.site\/vigraph\/template-kit\/portfolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/kitpro.site\/vigraph\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/kitpro.site\/vigraph\/template-kit\/404\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact-Metform",
+            "screenshot": "screenshots\/contact-metform.jpg",
+            "source": "templates\/contact-metform.json",
+            "preview_url": "https:\/\/kitpro.site\/vigraph\/template-kit\/contact-metform\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/kitpro.site\/vigraph\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/kitpro.site\/vigraph\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.6.2",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.5.10",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegtheme"
+        },
+        {
+            "name": "Qi Addons For Elementor",
+            "version": "1.5.4",
+            "file": "qi-addons-for-elementor\/class-qiaddonsforelementor.php",
+            "author": "Qode Interactive"
+        },
+        {
+            "name": "Elementor Header & Footer Builder",
+            "version": "1.6.9",
+            "file": "header-footer-elementor\/header-footer-elementor.php",
+            "author": "Brainstorm Force, Nikhil Chavan"
+        },
+        {
+            "name": "MetForm",
+            "version": "3.2.1",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.11.2",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "young-professional-videographer-holding-camera-on-2021-09-24-04-28-42-utc-copy.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/young-professional-videographer-holding-camera-on-2021-09-24-04-28-42-utc-copy-800x607.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 129646,
+            "dimensions": [
+                1200,
+                911
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "colorist-using-editing-software-on-computer-2022-06-03-21-31-44-utc.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/colorist-using-editing-software-on-computer-2022-06-03-21-31-44-utc-800x684.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                }
+            ],
+            "filesize": 159916,
+            "dimensions": [
+                935,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "international-fireworks-festival-display-at-night-2022-12-16-04-44-18-utc-copy2.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/international-fireworks-festival-display-at-night-2022-12-16-04-44-18-utc-copy2-800x684.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 211567,
+            "dimensions": [
+                935,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "office-party-dancing-2021-09-24-03-52-55-utc.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/office-party-dancing-2021-09-24-03-52-55-utc-800x684.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 129397,
+            "dimensions": [
+                935,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "group-of-school-children-standing-on-field-trip-in-2021-08-27-16-14-09-utc.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/group-of-school-children-standing-on-field-trip-in-2021-08-27-16-14-09-utc-800x684.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 101282,
+            "dimensions": [
+                935,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "men-filming-cooking-show-at-kitchen-2022-05-26-02-48-10-utc.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/men-filming-cooking-show-at-kitchen-2022-05-26-02-48-10-utc-800x684.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 170886,
+            "dimensions": [
+                935,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "multiracial-people-gathering-together-while-having-2022-12-09-04-33-49-utc.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/multiracial-people-gathering-together-while-having-2022-12-09-04-33-49-utc-800x684.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 164744,
+            "dimensions": [
+                935,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "the-guy-plays-video-games-and-streams-on-the-compu-2022-01-21-21-08-24-utc.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/the-guy-plays-video-games-and-streams-on-the-compu-2022-01-21-21-08-24-utc-800x684.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 93942,
+            "dimensions": [
+                935,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "p.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/p.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 110492,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "p1.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/p1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 119886,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "p2.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/p2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 85957,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "p3.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/p3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 88569,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "p4.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/p4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 70926,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "p5.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/p5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 64129,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "p6.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/p6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 167776,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "p7.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/p7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 209580,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "p8.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/p8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 113403,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "p9.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/p9.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 122556,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "p10.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/p10.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 133255,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "p11.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/p11.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 125415,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "p12.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/p12.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 142901,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "lg8.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/lg8.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 4598,
+            "dimensions": [
+                600,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "lg7.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/lg7.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 4777,
+            "dimensions": [
+                600,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "lg6.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/lg6.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 9424,
+            "dimensions": [
+                600,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "lg5.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/lg5.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 5622,
+            "dimensions": [
+                600,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "lg4.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/lg4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 3856,
+            "dimensions": [
+                600,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "lg3.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/lg3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 2276,
+            "dimensions": [
+                600,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "lg2.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/lg2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 5850,
+            "dimensions": [
+                600,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "lg1.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/lg1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 6837,
+            "dimensions": [
+                600,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "videographer-holding-a-video-camera-2022-11-10-18-29-52-utc-copy.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/videographer-holding-a-video-camera-2022-11-10-18-29-52-utc-copy-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                }
+            ],
+            "filesize": 141828,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "edit-video-production-control-panel-in-studio-edi-2022-09-28-21-43-16-utc-copy.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/edit-video-production-control-panel-in-studio-edi-2022-09-28-21-43-16-utc-copy-800x309.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                }
+            ],
+            "filesize": 168670,
+            "dimensions": [
+                1800,
+                696
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "studio-portrait-of-male-videographer-with-film-cam-2021-08-26-16-12-59-utc-copy.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/studio-portrait-of-male-videographer-with-film-cam-2021-08-26-16-12-59-utc-copy-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 122593,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "multimedia-designer-using-software-to-edit-video-f-2022-05-18-23-24-48-utc-copy.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/multimedia-designer-using-software-to-edit-video-f-2022-05-18-23-24-48-utc-copy-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                }
+            ],
+            "filesize": 156720,
+            "dimensions": [
+                1200,
+                675
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "pp1.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/pp1-800x1067.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 228432,
+            "dimensions": [
+                900,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "pp4.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/pp4-800x1067.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 178727,
+            "dimensions": [
+                900,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "pp7.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/pp7-800x1067.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 136219,
+            "dimensions": [
+                900,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "pp8.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/pp8-800x1067.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 102436,
+            "dimensions": [
+                900,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "pp2.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/pp2-800x1067.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 224303,
+            "dimensions": [
+                900,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "pp6.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/pp6-800x1067.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 176029,
+            "dimensions": [
+                900,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "pp5.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/pp5-800x1067.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 160751,
+            "dimensions": [
+                900,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "pp3.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/pp3-800x1067.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 194875,
+            "dimensions": [
+                900,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "fireworks-by-the-sea-2021-08-26-15-36-47-utc-copy.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/fireworks-by-the-sea-2021-08-26-15-36-47-utc-copy-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 234383,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "filming-with-professional-camera-2022-11-01-02-07-46-utc-copy.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/filming-with-professional-camera-2022-11-01-02-07-46-utc-copy-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                }
+            ],
+            "filesize": 210120,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        },
+        {
+            "filename": "LOGO2.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/vigraph\/wp-content\/uploads\/sites\/147\/2023\/02\/LOGO2.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 5927,
+            "dimensions": [
+                343,
+                159
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/832VRXWQUF"
+        }
+    ]
+}
